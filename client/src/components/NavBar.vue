@@ -61,7 +61,7 @@ const openMenuMobile = ref(false)
       </ul>
     </div>
     <div class="hidden md:block">
-      <ul class="flex p-[0.5rem] items-center space-x-[2rem]">
+      <ul class="flex-center p-[0.5rem] items-center space-x-[2rem]">
         <li>
           <a href="/">
             <img
