@@ -13,9 +13,9 @@ const openMenuMobile = ref(false)
 </script>
 
 <template>
-  <nav>
+  <nav class="container-navbar bg-primary-dark">
     <div class="md:hidden">
-      <ul v-if="!openMenuMobile" class="flex justify-between p-[8px]">
+      <ul v-if="!openMenuMobile" class="flex justify-between p-[0.5rem]">
         <li>
           <a href="/">
             <img
@@ -37,7 +37,7 @@ const openMenuMobile = ref(false)
           >
         </li>
       </ul>
-      <div v-else class="flex flex-row-reverse p-[8px]">
+      <div v-else class="flex flex-row-reverse p-[0.5rem]">
         <img
           width="32px"
           height="32px"
@@ -48,7 +48,7 @@ const openMenuMobile = ref(false)
       </div>
       <ul
         v-if="openMenuMobile"
-        class="flex flex-col items-center z-20 space-y-[32px] py-[32px]"
+        class="flex flex-col items-center z-20 space-y-[2rem] py-[2rem]"
       >
         <li
           v-for="tab in navigationTabs"
@@ -60,8 +60,8 @@ const openMenuMobile = ref(false)
         </li>
       </ul>
     </div>
-    <div class="hidden md:block pb-[32px]">
-      <ul class="flex p-[8px] items-center space-x-[32px]">
+    <div class="hidden md:block">
+      <ul class="flex p-[0.5rem] items-center space-x-[2rem]">
         <li>
           <a href="/">
             <img
