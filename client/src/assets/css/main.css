@@ -1,4 +1,6 @@
 @import './tailwind-shortcut.css';
+@import './fonts.css';
+@import './buttons.css';
 
 @tailwind base;
 @tailwind components;
