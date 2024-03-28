@@ -4,6 +4,6 @@ import NavBar from '@/components/NavBar.vue'
 </script>
 
 <template>
-  <NavBar />
-  <RouterView />
+  <NavBar class="text-white" />
+  <RouterView class="text-dark-75" />
 </template>
