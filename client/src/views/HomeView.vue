@@ -4,7 +4,7 @@
   <main>
     <section
       id="herosection"
-      class="container-padding container-stretch text-center bg-white h-full"
+      class="container-padding container-stretch text-center bg-white text-dark-75"
     >
       <h1 class="flex-center">
         Faudel Développeur Full-Stack
@@ -29,11 +29,11 @@
         </p>
         <p>
           Spécialisation particulière dans les ecosystèmes
-          <a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a>(w/ Typescript).
+          <a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a>(w/ <a class="font-bold" href="https://www.typescriptlang.org/" target="_blank">Typescript</a>).
           <span class="clickeable-dark">
             <a href="/profile">
               Pour en savoir plus sur mes compétences et ma
-              personnalité cliquez ici.
+              personnalité cliquer ici.
             </a>
           </span>
         </p>
@@ -57,7 +57,7 @@
                 >
               </div>
             </a>
-            <a class="clickeable-dark" href="/profil/lectures">
+            <a class="clickeable-dark" href="/profil#lectures">
               <p>
                 Retrouvez toute mes autres lectures actuelle et
                 finis.
