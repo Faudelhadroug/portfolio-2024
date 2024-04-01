@@ -13,16 +13,16 @@ const openMenuMobile = ref(false)
 </script>
 
 <template>
-  <nav class="container-navbar bg-primary-dark">
+  <nav class="container-navbar bg-primary-dark w-full fixed top-0 z-50">
     <div class="md:hidden">
-      <ul v-if="!openMenuMobile" class="flex justify-between p-[0.5rem]">
+      <ul v-if="!openMenuMobile" class="flex justify-between items-center p-[0.5rem]">
         <li>
           <a href="/">
             <img
               width="32px"
               height="32px"
-              src="../assets/logos/logo.png"
-              alt="Hamburger image to open the menu"
+              src="../assets/logos/logo_whitecontrast.png"
+              alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
             >
           </a>
@@ -67,8 +67,8 @@ const openMenuMobile = ref(false)
             <img
               width="32px"
               height="32px"
-              src="../assets/logos/logo.png"
-              alt="Hamburger image to open the menu"
+              src="../assets/logos/logo_whitecontrast.png"
+              alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
             >
           </a>
