@@ -1,15 +1,15 @@
 @layer base {
   .btn {
-    @apply bg-primary hover:bg-secondary text-dark font-bold py-2 px-4 rounded;
+    @apply bg-primary hover:bg-secondary text-dark font-bold py-2 px-4 rounded transition ease-in-out;
   }
   .btn-dark {
-    @apply bg-primary-dark hover:bg-secondary-dark text-white font-bold py-2 px-4 rounded;
+    @apply bg-primary-dark hover:bg-secondary-dark text-white font-bold py-2 px-4 rounded transition ease-in-out;
   }
 
   .btn-secondary {
-    @apply hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded;
+    @apply hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded transition ease-in-out;
   }
   .btn-secondary-dark {
-    @apply hover:bg-secondary-dark text-secondary-dark font-semibold hover:text-white py-2 px-4 border border-secondary-dark hover:border-transparent rounded;
+    @apply hover:bg-secondary-dark text-secondary-dark font-semibold hover:text-white py-2 px-4 border border-secondary-dark hover:border-transparent rounded transition ease-in-out;
   }
 }
