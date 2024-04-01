@@ -1,6 +1,6 @@
 @layer base {
   html {
-    @apply  text-[18px] leading-[1.6rem];
+    @apply text-[18px] leading-[1.6rem];
   }
 
   h1 {
