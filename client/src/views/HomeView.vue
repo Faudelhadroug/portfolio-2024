@@ -4,7 +4,7 @@
   <main>
     <section
       id="herosection"
-      class="container-padding container-stretch text-center bg-white text-dark-75"
+      class="container-padding container-stretch text-center bg-white text-dark-75 h-screen overflow-auto"
     >
       <h1 class="flex-center">
         Faudel Développeur Full-Stack
