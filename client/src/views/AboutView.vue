@@ -1,8 +1,16 @@
 <script setup>
+import { computed } from 'vue'
+
 const specialisations = ['Javascript', 'Nodejs', 'Vue 3 (composition API)', 'Nuxt', 'MongoDB', 'Web design UX/UI', 'Linux (ubuntu)']
 const advanceds = ['HTML', 'CSS', 'TailwindCSS', 'Express.js', 'Mongoose', 'Pinia / Vuex', 'Git', 'Github', 'SEO', 'AGILE SCRUM & KANBAN', 'Midjourney', 'Trello']
 const mids = ['Typescript', 'Vitest', 'Jest', 'Notion', 'Figma', 'Photoshop', 'Illustrator']
 const learnings = ['Computer science']
+
+const actualAge = computed(() => {
+  const actualDate = new Date()
+  const age = actualDate.getMonth >= 11 && actualDate.getDate() >= 15 ? actualDate.getFullYear() - 1999 : actualDate.getFullYear() - 2000
+  return age
+})
 </script>
 
 <template>
@@ -28,7 +36,7 @@ const learnings = ['Computer science']
           Mon histoire
         </h2>
         <div>
-          <p>Mon nom est Faudel Hadroug. J'ai actuellement 24 ans et je suis un développeur full-stack spécialisé dans les framework Vue/Nuxt. J'apprécie l'informatique et les jeux-vidéos depuis mon plus jeune âge.</p>
+          <p>Mon nom est Faudel Hadroug. J'ai actuellement {{ actualAge }} ans et je suis un développeur full-stack spécialisé dans les framework Vue/Nuxt. J'apprécie l'informatique et les jeux-vidéos depuis mon plus jeune âge.</p>
           <br>
           <p>
             Ma première expérience dans le développement web date de 2017 avec Wordpress et l'apprentissage des bases du HTML/CSS. En 2019 je rejoins le Samsung Campus formation Epitech de 2 ans à Paris où je finis diplômé en 2021 avec une première expérience professionnel remote en alternance pendant 1 an.
@@ -38,7 +46,7 @@ const learnings = ['Computer science']
           </p>
           <br>
           <p>
-            En fin 2023 et je décide de me remettre à fond dans le développement informatique. Nous voilà désormais en 2024 avec mon objectif de trouver une entreprise dans laquelle évoluer et produire du code de qualité facilement lisible, améliorer mes compétences personnelle (soft-skills) et techniques. Tout en apprenant en auto-didact l'informatique (computer science) sur mon temps libre.
+            Fin 2023 je décide de me remettre à fond dans le développement informatique. Nous voilà désormais en 2024 avec mon objectif de trouver une entreprise dans laquelle évoluer et produire du code de qualité facilement lisible, améliorer mes compétences personnelle (soft-skills) et techniques. Tout en apprenant en auto-didact l'informatique (computer science) sur mon temps libre.
           </p>
         </div>
       </div>
