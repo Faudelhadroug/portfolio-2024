@@ -4,16 +4,16 @@ import { ref } from 'vue'
 const navigationTabs = [
   { text: 'Accueil', link: '/' },
   { text: 'Mon profil', link: '/profil' },
-  { text: 'Projects', link: '/projects' },
-  { text: 'Arts', link: '/arts' },
-  { text: 'Blog', link: '/blog' },
+  { text: 'Projets', link: '/projets' },
+  // { text: 'Arts', link: '/arts' },
+  // { text: 'Blog', link: '/blog' },
   { text: 'Contact', link: '/contact' },
 ]
 const openMenuMobile = ref(false)
 </script>
 
 <template>
-  <nav class="container-navbar bg-primary-dark w-full fixed top-0 z-50">
+  <nav class="container-navbar bg-primary-dark w-full md:h-[5rem] fixed top-0 z-50">
     <div class="md:hidden">
       <ul v-if="!openMenuMobile" class="flex justify-between items-center p-[0.5rem]">
         <li>
@@ -57,6 +57,17 @@ const openMenuMobile = ref(false)
           :class="$route.path === tab.link ? 'font-bold' : ''"
         >
           <a :href="tab.link">{{ tab.text }}</a>
+        </li>
+        <li>
+          <a href="/">
+            <img
+              width="32px"
+              height="32px"
+              src="../assets/logos/logo_whitecontrast.png"
+              alt="Logo Faudel portfolio"
+              @click="openMenuMobile = !openMenuMobile"
+            >
+          </a>
         </li>
       </ul>
     </div>
