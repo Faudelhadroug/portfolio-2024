@@ -18,14 +18,15 @@
           partage:
           <br>
           <span class="clickeable-dark">
-            <a href="/blog">du savoir</a>
-          </span>,
-          <span class="clickeable-dark">
-            <a href="/arts">mes créations artistique</a>
-          </span>, ainsi que
-          <span class="clickeable-dark">
             <a href="/projects">mes travaux</a>
-          </span>.
+          </span>
+          <!-- , ainsi que
+          <span class="cursor-not-allowed">
+            <a href="/blog">du savoir </a>
+          </span>et
+          <span class="cursor-not-allowed">
+            <a href="/arts">mes créations artistique </a>
+          </span>. -->
         </p>
         <p>
           Spécialisation particulière dans les ecosystèmes
