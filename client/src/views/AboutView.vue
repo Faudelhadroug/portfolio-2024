@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from 'vue'
 
 const specialisations = ['Javascript', 'Nodejs', 'Vue 3 (composition API)', 'Nuxt', 'MongoDB', 'Web design UX/UI', 'Linux (ubuntu)']
@@ -8,29 +8,30 @@ const learnings = ['Computer science']
 
 const actualAge = computed(() => {
   const actualDate = new Date()
-  const age = actualDate.getMonth >= 11 && actualDate.getDate() >= 15 ? actualDate.getFullYear() - 1999 : actualDate.getFullYear() - 2000
+  const age = actualDate.getMonth() >= 11 && actualDate.getDate() >= 15 ? actualDate.getFullYear() - 1999 : actualDate.getFullYear() - 2000
   return age
 })
 </script>
 
 <template>
-  <aside class="hidden md:flex fixed px-[2rem] z-10 bg-white h-screen">
-    <div class="bg-primary-dark p-[2rem] m-auto rounded-md shadow-lg shadow-dark-65">
-      <p class="font-bold pb-[2rem] text-white">
-        Navigation rapide
-      </p>
-      <div class="">
-        <ul class="space-y-[1rem]">
-          <li><a class="clickeable" href="#histoire">Mon histoire</a></li>
-          <li><a class="clickeable" href="#personnalite">Ma personnalité</a></li>
-          <li><a class="clickeable" href="#competences">Mes compétences</a></li>
-          <li><a class="clickeable" href="#lectures">Mes lectures</a></li>
-        </ul>
+
+  <main>
+    <aside class="hidden md:flex fixed px-[2rem] z-10 bg-white h-screen">
+      <div class="bg-primary-dark p-[2rem] m-auto rounded-md shadow-lg shadow-dark-65">
+        <p class="font-bold pb-[2rem] text-white">
+          Navigation rapide
+        </p>
+        <div class="">
+          <ul class="space-y-[1rem]">
+            <li><a class="clickeable" href="#histoire">Mon histoire</a></li>
+            <li><a class="clickeable" href="#personnalite">Ma personnalité</a></li>
+            <li><a class="clickeable" href="#competences">Mes compétences</a></li>
+            <li><a class="clickeable" href="#lectures">Mes lectures</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </aside>
-  <main class="md:pl-[18rem] container-padding bg-white">
-    <section>
+    </aside>
+    <section class="md:pl-[18rem] container-padding bg-white">
       <div class="py-[1rem]">
         <h2 id="histoire" class="pb-[1rem]">
           Mon histoire
