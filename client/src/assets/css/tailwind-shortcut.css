@@ -1,5 +1,8 @@
 @layer base {
-
+  .grid-container{
+    @apply grid grid-cols-6 xl:grid-cols-12 w-full h-full gap-x-[1rem] xl:gap-x-[2rem] fixed top-0 left-0 z-50 opacity-20 overflow-auto; 
+  }
+  
   .flex-center {
     @apply flex justify-center items-center;
   }
