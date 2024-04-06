@@ -3,12 +3,12 @@ import ProjectCard from '../components/ProjectCard.vue'
 </script>
 
 <template>
-  <main class="container-padding container-stretch bg-white h-screen overflow-auto">
-    <h1 class="pb-[2rem]">
+  <main class="grid grid-cols-6 xl:grid-cols-12 container-padding bg-white xl:h-screen overflow-auto">
+    <h1 class="pb-[2rem] col-span-6 xl:col-span-12 text-center">
       Mes projets
     </h1>
-    <div>
-      <ul class="grid gap-y-[2rem] md:gap-x-[2rem] lg:grid-cols-2 xl:grid-cols-3">
+    <div class="col-span-6 xl:col-span-12 xl:col-start-1">
+      <ul class="grid gap-y-[2rem] xl:gap-x-[2rem] lg:grid-cols-2 xl:grid-cols-3">
         <li>
           <ProjectCard>
             <template #heading>

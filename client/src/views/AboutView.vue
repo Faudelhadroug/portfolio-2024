@@ -14,24 +14,25 @@ const actualAge = computed(() => {
 </script>
 
 <template>
-
-  <main>
-    <aside class="hidden md:flex fixed px-[2rem] z-10 bg-white h-screen">
-      <div class="bg-primary-dark p-[2rem] m-auto rounded-md shadow-lg shadow-dark-65">
-        <p class="font-bold pb-[2rem] text-white">
-          Navigation rapide
-        </p>
-        <div class="">
-          <ul class="space-y-[1rem]">
-            <li><a class="clickeable" href="#histoire">Mon histoire</a></li>
-            <li><a class="clickeable" href="#personnalite">Ma personnalité</a></li>
-            <li><a class="clickeable" href="#competences">Mes compétences</a></li>
-            <li><a class="clickeable" href="#lectures">Mes lectures</a></li>
-          </ul>
+  <main class="grid grid-cols-6 xl:grid-cols-12 bg-white">
+    <aside class="hidden xl:flex justify-center items-center h-screen col-span-3">
+      <div class="fixed">
+        <div class="bg-primary-dark p-[2rem] m-auto rounded-md shadow-lg shadow-dark-65">
+          <p class="font-bold pb-[2rem] text-white">
+            Navigation rapide
+          </p>
+          <div class="">
+            <ul class="space-y-[1rem]">
+              <li><a class="clickeable" href="#histoire">Mon histoire</a></li>
+              <li><a class="clickeable" href="#personnalite">Ma personnalité</a></li>
+              <li><a class="clickeable" href="#competences">Mes compétences</a></li>
+              <li><a class="clickeable" href="#lectures">Mes lectures</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </aside>
-    <section class="md:pl-[18rem] container-padding bg-white">
+    <section class="col-span-6 xl:col-span-9  container-padding">
       <div class="py-[1rem]">
         <h2 id="histoire" class="pb-[1rem]">
           Mon histoire
@@ -68,7 +69,7 @@ const actualAge = computed(() => {
           <ol class="space-y-[1rem]">
             <li>
               <span class="font-bold">Specialisation:</span>
-              <ul class="flex flex-col flex-wrap md:flex-row">
+              <ul class="flex flex-col flex-wrap xl:flex-row">
                 <li v-for="(specialisation, index) in specialisations" :key="specialisation" class="pr-[0.5rem]">
                   {{ specialisation }}{{ index === specialisations.length - 1 ? '.' : ',' }}
                 </li>
@@ -76,7 +77,7 @@ const actualAge = computed(() => {
             </li>
             <li>
               <span class="font-bold">Maitrisée:</span>
-              <ul class="flex flex-col flex-wrap md:flex-row">
+              <ul class="flex flex-col flex-wrap xl:flex-row">
                 <li v-for="(advanced, index) in advanceds" :key="advanced" class="pr-[0.5rem]">
                   {{ advanced }}{{ index === advanceds.length - 1 ? '.' : ',' }}
                 </li>
@@ -84,7 +85,7 @@ const actualAge = computed(() => {
             </li>
             <li>
               <span class="font-bold">Intermédiaire:</span>
-              <ul class="flex flex-col flex-wrap md:flex-row">
+              <ul class="flex flex-col flex-wrap xl:flex-row">
                 <li v-for="(mid, index) in mids" :key="mid" class="pr-[0.5rem]">
                   {{ mid }}{{ index === mids.length - 1 ? '.' : ',' }}
                 </li>
@@ -92,7 +93,7 @@ const actualAge = computed(() => {
             </li>
             <li>
               <span class="font-bold">En apprentissage:</span>
-              <ul class="flex flex-col flex-wrap md:flex-row">
+              <ul class="flex flex-col flex-wrap xl:flex-row">
                 <li v-for="(learning, index) in learnings" :key="learning" class="pr-[0.5rem]">
                   {{ learning }}{{ index === learnings.length - 1 ? '.' : ',' }}
                 </li>
@@ -120,7 +121,7 @@ const actualAge = computed(() => {
             href="https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202"
             target="_blank"
           >
-            <div class="flex-center md:justify-start space-y-[0.5rem]">
+            <div class="flex-center xl:justify-start space-y-[0.5rem]">
               <img
                 width="256px"
                 height="256px"

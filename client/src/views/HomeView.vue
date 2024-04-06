@@ -4,19 +4,18 @@
   <main>
     <section
       id="herosection"
-      class="container-padding container-stretch text-center bg-white text-dark-75 h-screen overflow-auto"
+      class="container-padding grid grid-cols-6 xl:grid-cols-12 text-center bg-white text-dark-75 h-screen overflow-auto"
     >
-      <h1 class="flex-center">
+      <h1 class="col-span-6 xl:col-span-12">
         Faudel Développeur Full-Stack
       </h1>
-      <h2 class="flex-center pb-[1rem]">
+      <h2 class="col-span-6 xl:col-start-3 xl:col-span-8 pb-[1rem]">
         Je conçoit, design et code des solutions web
       </h2>
-      <div class="pb-[2rem] space-y-[1rem]">
+      <div class="col-span-6 xl:col-span-6 xl:col-start-4 pb-[2rem] space-y-[1rem]">
         <p>
           Hey, bienvenue sur mon portfolio, ma zone créatif où je
           partage:
-          <br>
           <span class="clickeable-dark">
             <a href="/projects">mes travaux</a>
           </span>
@@ -31,6 +30,7 @@
         <p>
           Spécialisation particulière dans les ecosystèmes
           <a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a>(w/ <a class="font-bold" href="https://www.typescriptlang.org/" target="_blank">Typescript</a>).
+          <br>
           <span class="clickeable-dark">
             <a href="/profile">
               Pour en savoir plus sur mes compétences et ma

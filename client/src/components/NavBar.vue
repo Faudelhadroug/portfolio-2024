@@ -13,8 +13,8 @@ const openMenuMobile = ref(false)
 </script>
 
 <template>
-  <nav class="container-navbar bg-primary-dark w-full md:h-[5rem] fixed top-0 z-50">
-    <div class="md:hidden">
+  <nav class="container-navbar bg-primary-dark w-full xl:h-[5rem] fixed top-0 z-50">
+    <div class="xl:hidden">
       <ul v-if="!openMenuMobile" class="flex justify-between items-center p-[0.5rem]">
         <li>
           <a href="/">
@@ -71,7 +71,7 @@ const openMenuMobile = ref(false)
         </li>
       </ul>
     </div>
-    <div class="hidden md:block">
+    <div class="hidden xl:block">
       <ul class="flex-center p-[0.5rem] items-center space-x-[2rem]">
         <li>
           <a href="/">

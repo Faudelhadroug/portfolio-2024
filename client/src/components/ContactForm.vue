@@ -60,7 +60,7 @@ async function handleFormSubmission() {
     }"
   >
     <div
-      class="flex flex-col space-y-[1rem] pb-[1rem] md:space-y-0 md:flex-row md:space-x-[1rem]"
+      class="flex flex-col space-y-[1rem] xl:space-y-0 pb-[1rem] xl:flex-row xl:space-x-[1rem]"
     >
       <FormKit
         v-model="fullname"
@@ -107,7 +107,7 @@ async function handleFormSubmission() {
       placeholder="La raison pour laquelle vous me contacter"
       name="message"
       label-class="font-bold text-white"
-      input-class="w-full outline outline-1 p-[0.5rem] pb-[4rem] md:pb-[6rem] xl:pb-[8rem] 2xl:pb-[10rem] text-dark placeholder-dark-75 bg-white"
+      input-class="w-full outline outline-1 p-[0.5rem] pb-[4rem] xl:pb-[6rem] xl:pb-[8rem] 2xl:pb-[10rem] text-dark placeholder-dark-75 bg-white"
       outer-class="text-red-500 pb-[1rem]"
     />
     <button type="button" class="btn-dark" @click="formIsValid ? handleFormSubmission() : null">
