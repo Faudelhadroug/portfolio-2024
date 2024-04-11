@@ -4,7 +4,7 @@
   <main>
     <section
       id="herosection"
-      class="container-padding grid grid-cols-6 xl:grid-cols-12 text-center bg-white text-dark-75 h-screen overflow-auto"
+      class="container-padding grid grid-cols-6 xl:grid-cols-12 text-center bg-white text-dark-75"
     >
       <h1 class="col-span-6 xl:col-span-12">
         Faudel Développeur Full-Stack
