@@ -53,7 +53,7 @@ const openMenuMobile = ref(false)
         <li
           v-for="tab in navigationTabs"
           :key="tab.link"
-          class="text-center"
+          class="text-center hover:text-secondary"
           :class="$route.path === tab.link ? 'font-bold' : ''"
         >
           <a :href="tab.link">{{ tab.text }}</a>
@@ -85,7 +85,7 @@ const openMenuMobile = ref(false)
           </a>
         </li>
         <li v-for="tab in navigationTabs" :key="tab.link" :class="$route.path === tab.link ? 'font-bold' : ''">
-          <a :href="tab.link">{{ tab.text }}</a>
+          <a :href="tab.link" class="hover:text-secondary">{{ tab.text }}</a>
         </li>
       </ul>
     </div>

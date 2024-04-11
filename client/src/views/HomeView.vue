@@ -71,7 +71,7 @@
           <ul class="flex space-x-[1rem]">
             <li>
               <a
-                class="flex items-center space-x-[0.5rem]"
+                class="flex items-center space-x-[0.5rem] hover:text-primary-dark"
                 href="https://www.github.com/faudelhadroug"
                 target="_blank"
               >
@@ -86,7 +86,7 @@
             </li>
             <li>
               <a
-                class="flex items-center space-x-[0.5rem]"
+                class="flex items-center space-x-[0.5rem] hover:text-primary-dark"
                 href="https://www.linkedin.com/in/faudel-hadroug/"
                 target="_blank"
               >

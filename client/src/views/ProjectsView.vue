@@ -22,7 +22,7 @@ import ProjectCard from '../components/ProjectCard.vue'
               <li>TailwindCSS</li>
             </template>
             <template #links>
-              <li>
+              <li class="hover:scale-125 hover:duration-200">
                 <img
                   width="32px"
                   height="32px"
@@ -30,7 +30,7 @@ import ProjectCard from '../components/ProjectCard.vue'
                   alt="Internet logo cliquable pour une redirection vers un hébergement du projet"
                 >
               </li>
-              <li>
+              <li class="hover:scale-125 hover:duration-200">
                 <a href="https://github.com/Faudelhadroug/portfolio-2024" target="_blank">
                   <img
                     width="32px"
@@ -57,7 +57,7 @@ import ProjectCard from '../components/ProjectCard.vue'
               <li>TailwindCSS</li>
             </template>
             <template #links>
-              <li>
+              <li class="hover:scale-125 hover:duration-200">
                 <img
                   width="32px"
                   height="32px"
@@ -65,7 +65,7 @@ import ProjectCard from '../components/ProjectCard.vue'
                   alt="Internet logo cliquable pour une redirection vers un hébergement du projet"
                 >
               </li>
-              <li>
+              <li class="hover:scale-125 hover:duration-200">
                 <a href="https://github.com/Faudelhadroug/RickAndMorty" target="_blank">
                   <img
                     width="32px"
