@@ -49,7 +49,7 @@ import ProjectCard from '../components/ProjectCard.vue'
               Rick et Morty
             </template>
             <template #description>
-              Petit projet pour afficher visuellement les informations des personnages de l'univers de Rick et Morty via une API. Avec les fonctionnalités suivante: bar de recherche, pagination, data visualisation.
+              Petit projet pour afficher visuellement les informations des personnages de l'univers Rick et Morty via une API. Avec les fonctionnalités suivante: bar de recherche, pagination, data visualisation.
             </template>
             <template #languages>
               <li>Vue.js</li>
