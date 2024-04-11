@@ -12,7 +12,7 @@ import ContactForm from '@/components/ContactForm.vue'
         Vous pouvez me contacter avec mon email suivante: hadroug.faudel@gmail.com ou via le formulaire. Les informations que vous envoyez seront utiliser seulement afin de vous recontacter.
       </p>
     </div>
-    <div class="col-span-6 xl:col-span-8 outline outline-1 outline-primary-dark p-[2rem] h-fit">
+    <div class="col-span-6 xl:col-span-8 outline outline-1 outline-primary-dark p-[2rem] h-fit shadow-lg shadow-primary">
       <ContactForm />
     </div>
   </main>

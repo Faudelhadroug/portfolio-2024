@@ -13,7 +13,7 @@ const openMenuMobile = ref(false)
 </script>
 
 <template>
-  <nav class="container-navbar bg-primary-dark w-full xl:h-[5rem] fixed top-0 z-50">
+  <nav class="container-navbar bg-primary-dark w-full xl:h-[5rem] fixed top-0 z-50 shadow-md shadow-secondary-dark">
     <div class="xl:hidden">
       <ul v-if="!openMenuMobile" class="flex justify-between items-center p-[0.5rem]">
         <li>

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="rounded outline h-full w-full outline-primary-dark p-[1rem] flex flex-col justify-between">
+  <div class="rounded outline h-full w-full outline-primary-dark p-[1rem] flex flex-col justify-between shadow-lg shadow-primary-dark">
     <div class="h-[20rem]">
       <div class="flex flex-col">
         <p class="font-bold text-xl">
