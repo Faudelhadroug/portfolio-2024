@@ -1,10 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>
+  <main class="h-full pt-[2rem] text-center bg-white text-dark-75">
     <section
       id="herosection"
-      class="container-padding grid grid-cols-6 xl:grid-cols-12 text-center bg-white text-dark-75"
+      class="container-padding grid grid-cols-6 xl:grid-cols-12"
     >
       <h1 class="col-span-6 xl:col-span-12">
         Faudel Développeur Full-Stack
@@ -29,10 +29,10 @@
         </p>
         <p>
           Spécialisation particulière dans les ecosystèmes
-          <a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a>(w/ <a class="font-bold" href="https://www.typescriptlang.org/" target="_blank">Typescript</a>).
+          <a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a> (w/ <a class="font-bold" href="https://www.typescriptlang.org/" target="_blank">Typescript</a>).
           <br>
           <span class="clickeable-dark">
-            <a href="/profile">
+            <a href="/profil">
               Pour en savoir plus sur mes compétences et ma
               personnalité cliquer ici.
             </a>

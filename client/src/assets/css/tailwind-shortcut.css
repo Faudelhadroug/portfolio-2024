@@ -11,7 +11,7 @@
   }
 
   .container-padding {
-    @apply px-[0.5rem] pt-[8rem] py-[4rem] xl:px-[1rem] xl:pt-[8rem] 2xl:px-[2rem] 2xl:pt-[10rem];
+    @apply px-[0.5rem] pt-[8rem] py-[4rem] md:px-[1rem] xl:px-[1.5rem] xl:pt-[8rem] 2xl:px-[2rem] 2xl:pt-[10rem];
   }
   
   .clickeable {
