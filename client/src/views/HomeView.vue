@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main class="h-full pt-[2rem] text-center bg-white text-dark-75">
+  <main class="pt-[4rem] lg:h-screen overflow-auto text-center bg-white text-dark-75">
     <section
       id="herosection"
       class="container-padding grid grid-cols-6 xl:grid-cols-12"
