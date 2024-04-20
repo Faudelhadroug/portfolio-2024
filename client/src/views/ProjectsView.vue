@@ -12,24 +12,16 @@ import ProjectCard from '../components/ProjectCard.vue'
         <li>
           <ProjectCard>
             <template #heading>
-              Portfolio
+              Mon portfolio
             </template>
             <template #description>
-              Ma vitrine en ligne pour afficher mes compétences techniques et ma créativité, Ce projet à été conçu avec une attention particulière sur l'experience utilisateur (UX).
+              Ma vitrine en ligne sur laquelle vous êtes, pour afficher mes compétences techniques et ma créativité. Ce projet à été conçu avec une attention particulière sur l'experience utilisateur (UX).
             </template>
             <template #languages>
               <li>Vue.js</li>
               <li>TailwindCSS</li>
             </template>
             <template #links>
-              <li class="hover:scale-125 hover:duration-200">
-                <img
-                  width="32px"
-                  height="32px"
-                  src="../assets/icons/www.svg"
-                  alt="Internet logo cliquable pour une redirection vers un hébergement du projet"
-                >
-              </li>
               <li class="hover:scale-125 hover:duration-200">
                 <a href="https://github.com/Faudelhadroug/portfolio-2024" target="_blank">
                   <img
@@ -58,12 +50,14 @@ import ProjectCard from '../components/ProjectCard.vue'
             </template>
             <template #links>
               <li class="hover:scale-125 hover:duration-200">
-                <img
-                  width="32px"
-                  height="32px"
-                  src="../assets/icons/www.svg"
-                  alt="Internet logo cliquable pour une redirection vers un hébergement du projet"
-                >
+                <a href="https://rickandmorty-2il.pages.dev/" target="_blank">
+                  <img
+                    width="32px"
+                    height="32px"
+                    src="../assets/icons/www.svg"
+                    alt="Internet logo cliquable pour une redirection vers un hébergement du projet"
+                  >
+                </a>
               </li>
               <li class="hover:scale-125 hover:duration-200">
                 <a href="https://github.com/Faudelhadroug/RickAndMorty" target="_blank">
