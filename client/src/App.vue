@@ -1,17 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavBar from '@/components/NavBar.vue'
-import { useHead } from '@unhead/vue'
-
-useHead({
-  title: 'Faudel Portfolio',
-   meta: [
-    {
-      name: 'description',
-      content: 'Portfolio web développeur Faudel Hadroug',
-    },
-  ],
-})
 </script>
 
 <template>
