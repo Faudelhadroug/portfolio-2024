@@ -1,4 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Accueil - Faudel Portfolio',
+   meta: [
+    {
+      name: 'description',
+      content: 'Page d\'accueil du portfolio faudel.dev',
+    },
+  ],
+})
+</script>
 
 <template>
   <main class="pt-[4rem] h-screen overflow-auto text-center bg-white text-dark-75">

@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Mon profil - Faudel Portfolio',
+   meta: [
+    {
+      name: 'description',
+      content: 'Retrouvez le profil développeur de Faudel Hadroug; histoire, compétences, personnalité, lectures...',
+    },
+  ],
+})
 
 const specialisations = ['Javascript', 'Nodejs', 'Vue 3 (composition API)', 'Nuxt', 'MongoDB', 'Web design UX/UI', 'Linux (ubuntu)']
 const advanceds = ['HTML', 'CSS', 'TailwindCSS', 'Express.js', 'Mongoose', 'Pinia / Vuex', 'Git', 'Github', 'SEO', 'AGILE SCRUM & KANBAN', 'Midjourney', 'Trello']

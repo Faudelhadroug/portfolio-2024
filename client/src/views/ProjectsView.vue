@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import ProjectCard from '../components/ProjectCard.vue'
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Mes projets - Faudel Portfolio',
+   meta: [
+    {
+      name: 'description',
+      content: 'La liste complète de mes projets réalisée',
+    },
+  ],
+})
 </script>
 
 <template>
