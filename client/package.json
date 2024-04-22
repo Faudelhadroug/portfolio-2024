@@ -15,6 +15,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@formkit/vue": "^1.6.1",
+    "@unhead/vue": "^1.9.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
