@@ -52,7 +52,7 @@ const actualAge = computed(() => {
           <p>Mon nom est Faudel Hadroug. J'ai actuellement {{ actualAge }} ans et je suis un développeur full-stack spécialisé dans les framework Vue/Nuxt. J'apprécie l'informatique et les jeux-vidéos depuis mon plus jeune âge.</p>
           <br>
           <p>
-            Ma première expérience dans le développement web date de 2017 avec Wordpress et l'apprentissage des bases du HTML/CSS. En 2019 je rejoins le Samsung Campus formation Epitech de 2 ans à Paris où je finis diplômé en 2021 avec une première expérience professionnel remote en alternance pendant 1 an.
+            Ma première expérience dans le développement web date de 2017 avec Wordpress et l'apprentissage des bases du HTML/CSS. En 2019 je rejoins le Samsung Campus formation Epitech de 2 ans à Paris, où je finis diplômé en 2021, avec une première expérience professionnel remote en alternance pendant 1 an.
             <img class="py-[1rem]" src="https://www.usine-digitale.fr/mediatheque/7/8/3/000359387_1200x800_c.jpg" width="512px" height="512px" alt="Photo Samsung Campus">
             <br>
             En 2022 je mets le développement informatique de côté pour apprendre en auto-didact de nouvelles compétences (cryptomonnaie, finance, trading, marketing) avec une veille technologique sur mes framework favoris et en codant quelques projets qui resteront dans l'ombre.
@@ -69,7 +69,7 @@ const actualAge = computed(() => {
         </h2>
         <p>
           Compétiteur avec un esprit d'équipe et de nature calme, je suis un anarchiste du développement personnel et du dépassement de soi-même. L'évolution de dépasser nos limites et de celle qu'on nous impose.
-          En dehors du développement informatique j'aime beaucoup le sport, la musique, la photo/vidéo ainsi qu'apprendre.
+          En dehors du développement informatique j'aime beaucoup le sport, la musique, la photo/vidéo.
         </p>
       </div>
       <div class="py-[1rem]">
