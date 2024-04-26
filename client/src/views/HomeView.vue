@@ -29,7 +29,7 @@ useHead({
           Hey, bienvenue sur mon portfolio, ma zone créatif où je
           partage:
           <span class="clickeable-dark">
-            <a href="/projects">mes travaux</a>
+            <a href="/projets">mes travaux</a>
           </span>
           <!-- , ainsi que
           <span class="cursor-not-allowed">
