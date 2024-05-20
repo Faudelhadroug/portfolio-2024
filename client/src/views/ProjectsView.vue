@@ -83,6 +83,44 @@ useHead({
             </template>
           </ProjectCard>
         </li>
+        <li>
+          <ProjectCard>
+            <template #heading>
+              Interactive Grid
+            </template>
+            <template #description>
+              Grille intéractive pour trouver le chemin plus court, possibilité de mettre des murs, de déplacer le début et la fin. Projet toujours en cours de dévelopement (Animation css, nombre d'algo disponible, ajouts de jeu sur la grille...)
+            </template>
+            <template #languages>
+              <li>Vue.js</li>
+              <li>Vitest</li>
+              <li>TailwindCSS</li>
+              <li>Algorithmie</li>
+            </template>
+            <template #links>
+              <li class="hover:scale-125 hover:duration-200">
+                <a href="https://interactive-grid.pages.dev/" target="_blank">
+                  <img
+                    width="32px"
+                    height="32px"
+                    src="../assets/icons/www.svg"
+                    alt="Internet logo cliquable pour une redirection vers un hébergement du projet"
+                  >
+                </a>
+              </li>
+              <li class="hover:scale-125 hover:duration-200">
+                <a href="https://github.com/Faudelhadroug/Interactive-Grid" target="_blank">
+                  <img
+                    width="32px"
+                    height="32px"
+                    src="../assets/logos/github.svg"
+                    alt="Github logo cliquable pour une redirection vers le repository du projet"
+                  >
+                </a>
+              </li>
+            </template>
+          </ProjectCard>
+        </li>
       </ul>
     </div>
   </main>
