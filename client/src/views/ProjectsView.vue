@@ -77,7 +77,6 @@ useHead({
             </template>
             <template #tags>
               <li class="tags">Vue.js</li>
-              <li class="tags">Vitest</li>
               <li class="tags">TailwindCSS</li>
               <li class="tags">Algorithmie</li>
               <li class="tags">Data Structure</li>
