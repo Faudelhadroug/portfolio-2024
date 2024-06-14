@@ -4,16 +4,17 @@
 
 <template>
   <div class="rounded outline h-full w-full outline-primary-dark p-[1rem] flex flex-col justify-between shadow-lg shadow-primary-dark">
-    <div class="h-[20rem]">
-      <div class="flex flex-col">
-        <p class="font-bold text-xl">
+    <div>
+      <div class="flex flex-col pb-[1rem]">
+        <p class="font-bold text-xl pb-[1rem]">
           <slot name="heading" />
         </p>
-        <p><slot name="description" /></p>
+        <p class="pb-[1rem]"><slot name="description" /></p>
+        <slot name="image"></slot>
       </div>
     </div>
-    <ul class="flex flex-wrap space-x-[1rem]">
-      <slot name="languages" />
+    <ul class="flex flex-wrap justify-center">
+      <slot name="tags" />
     </ul>
     <ul class="flex flex-wrap space-x-[1rem] pt-[1rem]">
       <slot name="links" />

@@ -9,15 +9,16 @@
   .container-navbar {
     @apply px-[0.5rem] py-[1rem] xl:px-[1rem] xl:py-[1rem];
   }
-
   .container-padding {
     @apply px-[0.5rem] pt-[8rem] py-[4rem] md:px-[1rem] xl:px-[1.5rem] xl:pt-[8rem] 2xl:px-[2rem] 2xl:pt-[10rem];
   }
-  
   .clickeable {
     @apply text-white hover:text-secondary;
   }
   .clickeable-dark {
     @apply text-secondary-dark hover:text-primary-dark font-bold;
+  }
+  .tags {
+    @apply bg-secondary-dark text-white rounded-full px-[1rem] py-[0.5rem] m-[0.5rem];
   }
 }

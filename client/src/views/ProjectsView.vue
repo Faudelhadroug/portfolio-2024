@@ -15,7 +15,7 @@ useHead({
 
 <template>
   <main class="grid grid-cols-6 xl:grid-cols-12 container-padding bg-white lg:h-screen overflow-auto">
-    <h1 class="pb-[2rem] col-span-6 xl:col-span-12 text-center">
+    <h1 class="pb-[2rem] xl:pb-[4rem] col-span-6 xl:col-span-12 text-center">
       Mes projets
     </h1>
     <div class="col-span-6 xl:col-span-12 xl:col-start-1">
@@ -23,41 +23,18 @@ useHead({
         <li>
           <ProjectCard>
             <template #heading>
-              Mon portfolio
-            </template>
-            <template #description>
-              Ma vitrine en ligne sur laquelle vous êtes, pour afficher mes compétences techniques et ma créativité. Ce projet à été conçu avec une attention particulière sur l'experience utilisateur (UX).
-            </template>
-            <template #languages>
-              <li>Vue.js</li>
-              <li>TailwindCSS</li>
-            </template>
-            <template #links>
-              <li class="hover:scale-125 hover:duration-200">
-                <a href="https://github.com/Faudelhadroug/portfolio-2024" target="_blank">
-                  <img
-                    width="32px"
-                    height="32px"
-                    src="../assets/logos/github.svg"
-                    alt="Github logo cliquable pour une redirection vers le repository du projet"
-                  >
-                </a>
-              </li>
-            </template>
-          </ProjectCard>
-        </li>
-        <li>
-          <ProjectCard>
-            <template #heading>
               Rick et Morty
             </template>
             <template #description>
-              Petit projet pour afficher visuellement les informations des personnages de l'univers Rick et Morty via une API. Avec les fonctionnalités suivante: bar de recherche, pagination, data visualisation.
+              Afficher visuellement les informations des personnages de l'univers Rick et Morty grâce à une API publique. Avec les fonctionnalités suivante: bar de recherche, pagination, data visualisation.
             </template>
-            <template #languages>
-              <li>Vue.js</li>
-              <li>ECharts</li>
-              <li>TailwindCSS</li>
+            <template #image>
+              <img class="rounded-lg w-full h-full object-contain" src="../assets/projects/rickAndMorty.png" alt="image de prévisualisation du project Rick et Morty" />
+            </template>
+            <template #tags>
+              <li class="tags">Vue.js</li>
+              <li class="tags">ECharts</li>
+              <li class="tags">TailwindCSS</li>
             </template>
             <template #links>
               <li class="hover:scale-125 hover:duration-200">
@@ -91,11 +68,15 @@ useHead({
             <template #description>
               Grille intéractive pour trouver le chemin plus court, possibilité de mettre des murs, de déplacer le début et la fin. Projet toujours en cours de dévelopement (Animation css, nombre d'algo disponible, ajouts de jeu sur la grille...)
             </template>
-            <template #languages>
-              <li>Vue.js</li>
-              <li>Vitest</li>
-              <li>TailwindCSS</li>
-              <li>Algorithmie</li>
+            <template #image>
+              <img class="rounded-lg w-full h-full object-conver" src="../assets/projects/pathfinder-visualizer.png" alt="image de prévisualisation du project Rick et Morty" />
+            </template>
+            <template #tags>
+              <li class="tags">Vue.js</li>
+              <li class="tags">Vitest</li>
+              <li class="tags">TailwindCSS</li>
+              <li class="tags">Algorithmie</li>
+              <li class="tags">Data Structure</li>
             </template>
             <template #links>
               <li class="hover:scale-125 hover:duration-200">

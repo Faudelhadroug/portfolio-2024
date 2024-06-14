@@ -5,8 +5,6 @@ const navigationTabs = [
   { text: 'Accueil', link: '/' },
   { text: 'Mon profil', link: '/profil' },
   { text: 'Projets', link: '/projets' },
-  // { text: 'Arts', link: '/arts' },
-  // { text: 'Blog', link: '/blog' },
   { text: 'Contact', link: '/contact' },
 ]
 const openMenuMobile = ref(false)
@@ -72,7 +70,7 @@ const openMenuMobile = ref(false)
       </ul>
     </div>
     <div class="hidden xl:block">
-      <ul class="flex-center p-[0.5rem] items-center space-x-[2rem]">
+      <ul class="flex-center space-x-[2rem] pt-[0.5rem]">
         <li>
           <a href="/">
             <img

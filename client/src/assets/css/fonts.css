@@ -2,28 +2,11 @@
   html {
     @apply text-[18px] leading-[1.6rem];
   }
-
+  
   h1 {
-    @apply text-[2.5rem] xl:text-[2.986rem] leading-[3.5rem] font-bold;
+    @apply text-[2.5rem] xl:text-[2.986rem] leading-10 xl:leading-6 tracking-tight font-bold;
   }
-
   h2 {
-    @apply text-[2.2rem] xl:text-[2.488rem] leading-[3.1rem] font-medium;
-  }
-
-  h3 {
-    @apply text-[1.8rem] xl:text-[2.074rem] leading-[2.7rem] font-medium;
-  }
-
-  h4 {
-    @apply text-[1.6rem] xl:text-[1.728rem] leading-[2.3rem] font-normal;
-  }
-
-  h5 {
-    @apply text-[1.44rem] leading-[1.9rem] font-light;
-  }
-
-  h6 {
-    @apply text-[1.2rem] leading-[1.9rem] font-[lighter];
+    @apply text-[2rem] xl:text-[2.488rem] leading-10 md:leading-6 font-medium;
   }
 }

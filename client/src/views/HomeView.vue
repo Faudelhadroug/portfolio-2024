@@ -10,110 +10,70 @@ useHead({
     },
   ],
 })
+
 </script>
 
 <template>
-  <main class="pt-[4rem] h-screen overflow-auto text-center bg-white text-dark-75">
+  <main class="pt-[4rem] h-screen overflow-auto text-center md:text-left bg-white text-dark-75 w-full">
     <section
       id="herosection"
-      class="container-padding grid grid-cols-6 xl:grid-cols-12"
+      class="pt-[8rem] px-[0.5rem] py-[4rem] md:px-[1rem] xl:px-[8rem] xl:pt-[8rem] 2xl:px-[20rem] 2xl:pt-[10rem]"
     >
-      <h1 class="col-span-6 xl:col-span-12">
-        Faudel Développeur Full-Stack
+    <div class="container hidden xl:block">
+      <div class="circle-container" v-for="(item, index) in 100" :key="index">
+        <div class="circle"></div>
+      </div>
+    </div>
+    <div>
+      <p class="text-[48px] md:text-[64px] tracking-tighter pb-[2rem] md:pb-[4rem] xl:pb-[6rem] xl:pt-[2rem]">Hey, bienvenue.</p>
+      <h1 class="pb-[2rem] whitespace-nowrap">
+        Je suis Faudel, Développeur Full-Stack
       </h1>
-      <h2 class="col-span-6 xl:col-start-3 xl:col-span-8 pb-[1rem]">
-        Je conçoit, design et code des solutions web
-      </h2>
-      <div class="col-span-6 xl:col-span-6 xl:col-start-4 pb-[2rem] space-y-[1rem]">
-        <p>
-          Hey, bienvenue sur mon portfolio, ma zone créatif où je
-          partage:
-          <span class="clickeable-dark">
-            <a href="/projets">mes travaux</a>
-          </span>
-          <!-- , ainsi que
-          <span class="cursor-not-allowed">
-            <a href="/blog">du savoir </a>
-          </span>et
-          <span class="cursor-not-allowed">
-            <a href="/arts">mes créations artistique </a>
-          </span>. -->
-        </p>
-        <p>
-          Spécialisation particulière dans les ecosystèmes
-          <a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a> (w/ <a class="font-bold" href="https://www.typescriptlang.org/" target="_blank">Typescript</a>).
-          <br>
-          <span class="clickeable-dark">
-            <a href="/profil">
-              Pour en savoir plus sur mes compétences et ma
-              personnalité cliquer ici.
-            </a>
-          </span>
-        </p>
-        <div class="flex-center">
-          <div class="flex-center flex-col space-y-[0.5rem]">
-            <p>Ma lecture principale actuelle:</p>
-            <a
-              href="https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202"
-              target="_blank"
-            >
-              <div class="flex-center flex-col space-y-[0.5rem]">
-                <p class="font-bold">
-                  Skiena, Steven S. - The algorithm Design
-                  Manual.
-                </p>
-                <img
-                  width="128px"
-                  height="128px"
-                  src="../assets/books/The_Algorithm_Design_Manual-cover.jpeg"
-                  alt="Cover du livre 'Skiena, Steven S. - The algorithm Design Manual"
-                >
-              </div>
-            </a>
-            <a class="clickeable-dark" href="/profil#lectures">
-              <p>
-                Retrouvez toute mes autres lectures actuelle et
-                finis.
-              </p>
-            </a>
+        <div class="space-y-[0.5rem] ml-1">
+          <p>
+            Je conçois, design et code des solutions web. Spécialisation dans les ecosystème <a class="font-bold" href="https://vuejs.org/" target="_blank">Vue</a>/<a class="font-bold" href="https://nuxt.com/" target="_blank">Nuxt</a>/<a class="font-bold" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank">Javascript</a> (avec <a class="font-bold" href="https://www.typescriptlang.org/" target="_blank">Typescript</a>).
+          </p>
+          <p>Je vis en France et suis diplomé d'Epitech Paris en tant qu'intégrateur et développeur web.</p>
+          <p class="font-bold text-secondary-dark">Actuellement disponible pour un poste en CDI ou des missions Freelance.</p>
+          <div class="flex justify-center md:justify-start items-center space-x-[2rem] pt-[1rem] pb-[1rem] xl:pb-[4rem]">
+            <button class="btn-dark"><a href="/projets">Mes projets</a></button>
+            <button class="text-primary-dark hover:text-secondary-dark font-bold"><a href="/contact">Me contacter &gt;</a></button>
           </div>
         </div>
-        <div class="flex-center flex-col space-x-[1rem]">
-          <p>Je suis aussi présent ici:</p>
-          <ul class="flex space-x-[1rem]">
-            <li>
-              <a
-                class="flex items-center space-x-[0.5rem] hover:text-primary-dark"
-                href="https://www.github.com/faudelhadroug"
-                target="_blank"
-              >
-                <p class="font-bold">Github</p>
-                <img
-                  width="32px"
-                  height="32px"
-                  src="../assets/logos/github.svg"
-                  alt="Github logo cliquable pour une redirection sur mon profil"
-                >
-              </a>
-            </li>
-            <li>
-              <a
-                class="flex items-center space-x-[0.5rem] hover:text-primary-dark"
-                href="https://www.linkedin.com/in/faudel-hadroug/"
-                target="_blank"
-              >
-                <p class="font-bold">LinkedIn</p>
-                <img
-                  width="32px"
-                  height="32px"
-                  src="../assets/logos/In-Blue-128.png"
-                  alt="LinkedIn logo cliquable pour une redirection sur mon profil"
-                >
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    </div>
+    
     </section>
   </main>
 </template>
+
+<style>
+.holo{
+  background-image: linear-gradient(
+    to right,
+    rgba(120, 184, 247, 0.4),
+    rgba(255, 183, 197, 0.92),
+    rgba(192, 252, 180, 0.88),
+    rgba(188, 149, 214, 0.66)
+  );
+}
+.holo2{
+  background-image: linear-gradient(
+    to right,
+    rgba(230, 150, 80, 0.75),
+    rgba(100, 200, 50, 0.95),
+    rgba(220, 130, 240, 0.70),
+    rgba(140, 210, 190, 0.85)
+  );
+}
+
+.holo3{
+  background-image: linear-gradient(
+    to right,
+    rgba(159, 10, 192, 0.7),
+    rgba(200, 235, 43, 0.75),
+    rgba(179, 229, 215, 0.85),
+    rgba(140, 224, 97, 0.95)
+  );
+}
+
+</style>

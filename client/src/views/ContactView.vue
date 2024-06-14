@@ -14,7 +14,7 @@ useHead({
 </script>
 
 <template>
-  <main class="grid grid-cols-6 xl:grid-cols-12 gap-y-[2rem] xl:gap-y-0 xl:gap-x-[1rem] container-padding bg-dark text-white lg:h-screen overflow-auto">
+  <main class="grid grid-cols-6 xl:grid-cols-12 gap-y-[2rem] xl:gap-y-0 xl:gap-x-[1rem] xl:mt-[4rem] container-padding bg-dark text-white lg:h-screen overflow-auto">
     <div class="col-span-6 xl:col-span-4">
       <p class="font-bold text-2xl pb-[1rem]">
         Me contacter
