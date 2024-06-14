@@ -35,3 +35,8 @@ p {
   /* prevent text orphans (single word on last line) */
   text-wrap: pretty;
 }
+
+img {
+  width: auto;
+  max-height: 100%;
+}

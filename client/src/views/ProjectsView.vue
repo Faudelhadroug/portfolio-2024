@@ -29,7 +29,7 @@ useHead({
               Afficher visuellement les informations des personnages de l'univers Rick et Morty grâce à une API publique. Avec les fonctionnalités suivante: bar de recherche, pagination, data visualisation.
             </template>
             <template #image>
-              <img class="rounded-lg w-full h-full object-contain" src="../assets/projects/rickAndMorty.png" alt="image de prévisualisation du project Rick et Morty" />
+              <img class="rounded-lg w-full h-full object-contain" src="../assets/projects/rickAndMorty.webp" alt="image de prévisualisation du project Rick et Morty" />
             </template>
             <template #tags>
               <li class="tags">Vue.js</li>
@@ -38,8 +38,10 @@ useHead({
             </template>
             <template #links>
               <li class="hover:scale-125 hover:duration-200">
-                <a href="https://rickandmorty-2il.pages.dev/" target="_blank">
+                <a href="https://rickandmorty-2il.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
+                  <p>Site internet</p>
                   <img
+                    class="w-[32px] h-[32px]"
                     width="32px"
                     height="32px"
                     src="../assets/icons/www.svg"
@@ -48,8 +50,10 @@ useHead({
                 </a>
               </li>
               <li class="hover:scale-125 hover:duration-200">
-                <a href="https://github.com/Faudelhadroug/RickAndMorty" target="_blank">
+                <a href="https://github.com/Faudelhadroug/RickAndMorty" target="_blank" class="flex space-x-[0.5rem]">
+                  <p>Code source</p>
                   <img
+                    class="w-[32px] h-[32px]"
                     width="32px"
                     height="32px"
                     src="../assets/logos/github.svg"
@@ -69,7 +73,7 @@ useHead({
               Grille intéractive pour trouver le chemin plus court, possibilité de mettre des murs, de déplacer le début et la fin. Projet toujours en cours de dévelopement (Animation css, nombre d'algo disponible, ajouts de jeu sur la grille...)
             </template>
             <template #image>
-              <img class="rounded-lg w-full h-full object-conver" src="../assets/projects/pathfinder-visualizer.png" alt="image de prévisualisation du project Rick et Morty" />
+              <img class="rounded-lg w-full h-full object-conver" src="../assets/projects/pathfinder-visualizer.webp" alt="image de prévisualisation du project Rick et Morty" />
             </template>
             <template #tags>
               <li class="tags">Vue.js</li>
@@ -80,8 +84,10 @@ useHead({
             </template>
             <template #links>
               <li class="hover:scale-125 hover:duration-200">
-                <a href="https://interactive-grid.pages.dev/" target="_blank">
+                <a href="https://interactive-grid.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
+                  <p>Site internet</p>
                   <img
+                    class="w-[32px] h-[32px]"
                     width="32px"
                     height="32px"
                     src="../assets/icons/www.svg"
@@ -90,8 +96,10 @@ useHead({
                 </a>
               </li>
               <li class="hover:scale-125 hover:duration-200">
-                <a href="https://github.com/Faudelhadroug/Interactive-Grid" target="_blank">
+                <a href="https://github.com/Faudelhadroug/Interactive-Grid" target="_blank" class="flex space-x-[0.5rem]">
+                  <p>Code source</p>
                   <img
+                    class="w-[32px] h-[32px]"
                     width="32px"
                     height="32px"
                     src="../assets/logos/github.svg"

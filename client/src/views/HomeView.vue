@@ -26,7 +26,7 @@ useHead({
     </div>
     <div>
       <p class="text-[48px] md:text-[64px] tracking-tighter pb-[2rem] md:pb-[4rem] xl:pb-[6rem] xl:pt-[2rem]">Hey, bienvenue.</p>
-      <h1 class="pb-[2rem] whitespace-nowrap">
+      <h1 class="pb-[2rem] lg:whitespace-nowrap">
         Je suis Faudel, Développeur Full-Stack
       </h1>
         <div class="space-y-[0.5rem] ml-1">
@@ -36,8 +36,8 @@ useHead({
           <p>Je vis en France et suis diplomé d'Epitech Paris en tant qu'intégrateur et développeur web.</p>
           <p class="font-bold text-secondary-dark">Actuellement disponible pour un poste en CDI ou des missions Freelance.</p>
           <div class="flex justify-center md:justify-start items-center space-x-[2rem] pt-[1rem] pb-[1rem] xl:pb-[4rem]">
-            <button class="btn-dark"><a href="/projets">Mes projets</a></button>
-            <button class="text-primary-dark hover:text-secondary-dark font-bold"><a href="/contact">Me contacter &gt;</a></button>
+            <a href="/projets"><button class="btn-dark">Mes projets</button></a>
+            <a href="/contact"><button class="text-primary-dark hover:text-secondary-dark font-bold">Me contacter &gt;</button></a>
           </div>
         </div>
     </div>

@@ -14,21 +14,21 @@ const openMenuMobile = ref(false)
   <nav class="container-navbar bg-primary-dark w-full xl:h-[5rem] fixed top-0 z-50 shadow-md shadow-secondary-dark">
     <div class="xl:hidden">
       <ul v-if="!openMenuMobile" class="flex justify-between items-center p-[0.5rem]">
-        <li>
+        <li class="w-[64px] h-[64px]">
           <a href="/">
             <img
-              width="32px"
-              height="32px"
-              src="../assets/logos/logo_whitecontrast.png"
+              width="64px"
+              height="64px"
+              src="../assets/logos/logo-white-contrast.webp"
               alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
             >
           </a>
         </li>
-        <li>
+        <li class="w-[50px] h-[50px]">
           <img
-            width="32px"
-            height="32px"
+            width="50px"
+            height="50px"
             src="../assets/icons/hamburgerMenu.svg"
             alt="Hamburger image to open the menu"
             @click="openMenuMobile = !openMenuMobile"
@@ -41,6 +41,7 @@ const openMenuMobile = ref(false)
           height="32px"
           src="../assets/icons/closeMenu.svg"
           alt="Cross for closing the menu"
+          class="w-[32px] h-[32px]"
           @click="openMenuMobile = !openMenuMobile"
         >
       </div>
@@ -56,12 +57,12 @@ const openMenuMobile = ref(false)
         >
           <a :href="tab.link">{{ tab.text }}</a>
         </li>
-        <li>
+        <li class="w-[64px] h-[64px]">
           <a href="/">
             <img
-              width="32px"
-              height="32px"
-              src="../assets/logos/logo_whitecontrast.png"
+              width="64px"
+              height="64px"
+              src="../assets/logos/logo-white-contrast.webp"
               alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
             >
@@ -70,13 +71,13 @@ const openMenuMobile = ref(false)
       </ul>
     </div>
     <div class="hidden xl:block">
-      <ul class="flex-center space-x-[2rem] pt-[0.5rem]">
-        <li>
+      <ul class="flex-center space-x-[2rem]">
+        <li class="w-[64px] h-[64px]">
           <a href="/">
             <img
-              width="32px"
-              height="32px"
-              src="../assets/logos/logo_whitecontrast.png"
+              width="64px"
+              height="64px"
+              src="../assets/logos/logo-white-contrast.webp"
               alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
             >
