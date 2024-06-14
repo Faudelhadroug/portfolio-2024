@@ -67,7 +67,7 @@ useHead({
         <li>
           <ProjectCard>
             <template #heading>
-              Interactive Grid
+              Pathfinder visualizer
             </template>
             <template #description>
               Grille intéractive pour trouver le chemin plus court, possibilité de mettre des murs, de déplacer le début et la fin. Projet toujours en cours de dévelopement (Animation css, nombre d'algo disponible, ajouts de jeu sur la grille...)
