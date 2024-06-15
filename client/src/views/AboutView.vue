@@ -15,7 +15,7 @@ useHead({
 const specialisations = ['Javascript', 'Nodejs', 'Vue 3 (composition API)', 'Nuxt', 'MongoDB', 'Web design UX/UI', 'Linux (ubuntu)']
 const advanceds = ['HTML', 'CSS', 'TailwindCSS', 'Express.js', 'Mongoose', 'Pinia / Vuex', 'PHP', 'React.js', 'Git', 'Github', 'SEO', 'AGILE SCRUM & KANBAN', 'Midjourney', 'Trello']
 const mids = ['Typescript', 'Vitest', 'Jest', 'Notion', 'Figma', 'Photoshop', 'Illustrator']
-const learnings = ['Computer science']
+const learnings = ['Informatique (Computer science)', 'Go (GoLang)']
 
 const actualAge = computed(() => {
   const actualDate = new Date()
