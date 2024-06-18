@@ -29,7 +29,9 @@ useHead({
               Afficher visuellement les informations des personnages de l'univers Rick et Morty grâce à une API publique. Avec les fonctionnalités suivante: bar de recherche, pagination, data visualisation.
             </template>
             <template #image>
-              <img class="rounded-lg w-full h-full object-contain" src="../assets/projects/rickAndMorty.webp" alt="image de prévisualisation du project Rick et Morty" />
+              <a href="https://rickandmorty-2il.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
+                <img class="rounded-lg w-full h-full object-contain" src="../assets/projects/rickAndMorty.webp" alt="image de prévisualisation du project Rick et Morty" />
+              </a>
             </template>
             <template #tags>
               <li class="tags">Vue.js</li>
@@ -73,7 +75,9 @@ useHead({
               Grille intéractive pour trouver le chemin plus court. Avec les fonctionnalités suivante: Choix de différents algorithmes, rajouter/supprimé des murs, déplacer le début et la fin.
             </template>
             <template #image>
-              <img class="rounded-lg w-full h-full object-conver" src="../assets/projects/pathfinder-visualizer.webp" alt="image de prévisualisation du project Rick et Morty" />
+              <a href="https://interactive-grid.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
+                <img class="rounded-lg w-full h-full object-conver" src="../assets/projects/pathfinder-visualizer.webp" alt="image de prévisualisation du project Rick et Morty" />
+              </a>
             </template>
             <template #tags>
               <li class="tags">Vue.js</li>
