@@ -34,7 +34,7 @@ useHead({
               </a>
             </template>
             <template #tags>
-              <li class="tags">Vue.js</li>
+              <li class="tags-language">Vue.js</li>
               <li class="tags">ECharts</li>
               <li class="tags">TailwindCSS</li>
             </template>
@@ -80,7 +80,7 @@ useHead({
               </a>
             </template>
             <template #tags>
-              <li class="tags">Vue.js</li>
+              <li class="tags-language">Vue.js</li>
               <li class="tags">TailwindCSS</li>
               <li class="tags">Algorithmie</li>
               <li class="tags">Data Structure</li>

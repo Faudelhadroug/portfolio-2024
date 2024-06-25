@@ -21,4 +21,7 @@
   .tags {
     @apply bg-secondary-dark text-white rounded-full px-[1rem] py-[0.5rem] m-[0.5rem];
   }
+  .tags-language {
+    @apply bg-secondary-dark text-white rounded-full px-[1rem] py-[0.5rem] m-[0.5rem] border-4 border-secondary;
+  }
 }

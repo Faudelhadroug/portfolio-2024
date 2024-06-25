@@ -13,7 +13,7 @@
         <slot name="image"></slot>
       </div>
     </div>
-    <ul class="flex flex-wrap justify-center">
+    <ul class="flex flex-wrap justify-center items-center">
       <slot name="tags" />
     </ul>
     <ul class="flex flex-wrap justify-center space-x-[1rem] md:space-x-[2rem] pt-[1rem]">
