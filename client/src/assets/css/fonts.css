@@ -1,12 +1,12 @@
 @layer base {
   html {
-    @apply text-[18px] leading-[1.6rem];
+    @apply text-[18px] leading-[1.6rem] !important;
   }
   
   h1 {
-    @apply text-[2.5rem] xl:text-[2.986rem] leading-10 xl:leading-6 tracking-tight font-bold;
+    @apply text-[2.5rem] xl:text-[2.986rem] leading-10 xl:leading-6 tracking-tight font-bold !important;
   }
   h2 {
-    @apply text-[2rem] xl:text-[2.488rem] leading-10 md:leading-6 font-medium;
+    @apply text-[2rem] xl:text-[2.488rem] leading-10 md:leading-6 font-medium !important;
   }
 }

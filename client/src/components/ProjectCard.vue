@@ -16,7 +16,7 @@
     <ul class="flex flex-wrap justify-center">
       <slot name="tags" />
     </ul>
-    <ul class="flex flex-wrap space-x-[1rem] pt-[1rem]">
+    <ul class="flex flex-wrap justify-center space-x-[1rem] md:space-x-[2rem] pt-[1rem]">
       <slot name="links" />
     </ul>
   </div>

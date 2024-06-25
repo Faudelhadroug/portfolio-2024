@@ -44,9 +44,9 @@ const actualAge = computed(() => {
     </aside>
     <section class="col-span-6 xl:col-span-9  container-padding">
       <div class="py-[1rem]" id="histoire">
-        <h2 class="pb-[1.5rem]">
+        <h1 class="pb-[1.5rem]">
           En savoir plus sur moi
-        </h2>
+        </h1>
         <div>
           <p>Mon nom est Faudel Hadroug. J'ai actuellement {{ actualAge }} ans. J'apprécie l'informatique et les jeux-vidéos, depuis mon plus jeune âge.</p>
           <p>

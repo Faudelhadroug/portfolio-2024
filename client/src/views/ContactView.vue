@@ -7,23 +7,23 @@ useHead({
    meta: [
     {
       name: 'description',
-      content: 'Contacter Faudel Hadroug web développeur spécialisée dans l\'ecosystem Vue',
+      content: 'Contacter Faudel Hadroug web développeur full stack spécialisée dans l\'ecosystem Vue',
     },
   ],
 })
 </script>
 
 <template>
-  <main class="grid grid-cols-6 xl:grid-cols-12 gap-y-[2rem] xl:gap-y-0 xl:gap-x-[1rem] xl:mt-[4rem] container-padding bg-dark text-white lg:h-screen overflow-auto">
-    <div class="col-span-6 xl:col-span-4">
-      <p class="font-bold text-2xl pb-[1rem]">
+  <main class="mt-[1rem] md:mt-[4rem] container-padding bg-dark text-white lg:h-screen overflow-auto">
+    <div class="pb-[2rem] ">
+      <h1 class="font-bold text-2xl pb-[1rem] xl:pb-[2rem] text-center md:text-left">
         Me contacter
-      </p>
+      </h1>
       <p>
         Vous pouvez me contacter avec mon email suivante: hadroug.faudel@gmail.com ou via le formulaire. Les informations que vous envoyez seront utiliser seulement afin de vous recontacter.
       </p>
     </div>
-    <div class="col-span-6 xl:col-span-8 outline outline-1 outline-primary-dark p-[2rem] h-fit shadow-lg shadow-primary">
+    <div class="outline outline-1 outline-primary-dark p-[2rem] h-fit shadow-lg shadow-primary">
       <ContactForm />
     </div>
   </main>

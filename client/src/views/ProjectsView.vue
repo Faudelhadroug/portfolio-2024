@@ -14,11 +14,11 @@ useHead({
 </script>
 
 <template>
-  <main class="grid grid-cols-6 xl:grid-cols-12 container-padding bg-white lg:h-screen overflow-auto">
-    <h1 class="pb-[2rem] xl:pb-[4rem] col-span-6 xl:col-span-12 text-center">
+  <main class="container-padding bg-white lg:h-screen overflow-auto">
+    <h1 class="pb-[2rem] md:pb-[3rem] xl:pb-[4rem] pt-[3rem] text-center">
       Mes projets
     </h1>
-    <div class="col-span-6 xl:col-span-12 xl:col-start-1">
+    <div class="col-span-6 xl:col-span-12 xl:col-start-1 pb-[2rem]">
       <ul class="grid gap-y-[2rem] lg:gap-x-[1rem] xl:gap-x-[2rem] lg:grid-cols-2 xl:grid-cols-3">
         <li>
           <ProjectCard>
@@ -39,7 +39,7 @@ useHead({
               <li class="tags">TailwindCSS</li>
             </template>
             <template #links>
-              <li class="hover:scale-125 hover:duration-200">
+              <li class="md:hover:scale-125 md:hover:duration-200">
                 <a href="https://rickandmorty-2il.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
                   <p>Site internet</p>
                   <img
@@ -51,7 +51,7 @@ useHead({
                   >
                 </a>
               </li>
-              <li class="hover:scale-125 hover:duration-200">
+              <li class="md:hover:scale-125 md:hover:duration-200">
                 <a href="https://github.com/Faudelhadroug/RickAndMorty" target="_blank" class="flex space-x-[0.5rem]">
                   <p>Code source</p>
                   <img
@@ -86,7 +86,7 @@ useHead({
               <li class="tags">Data Structure</li>
             </template>
             <template #links>
-              <li class="hover:scale-125 hover:duration-200">
+              <li class="md:hover:scale-125 md:hover:duration-200">
                 <a href="https://interactive-grid.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
                   <p>Site internet</p>
                   <img
@@ -98,7 +98,7 @@ useHead({
                   >
                 </a>
               </li>
-              <li class="hover:scale-125 hover:duration-200">
+              <li class="md:hover:scale-125 md:hover:duration-200">
                 <a href="https://github.com/Faudelhadroug/Interactive-Grid" target="_blank" class="flex space-x-[0.5rem]">
                   <p>Code source</p>
                   <img
