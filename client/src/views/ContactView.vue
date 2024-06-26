@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import ContactForm from '@/components/ContactForm.vue'
 import { useHead } from '@unhead/vue'
+import ContactForm from '@/components/ContactForm.vue'
 
 useHead({
   title: 'Me contacter - Faudel Portfolio',
-   meta: [
+  meta: [
     {
       name: 'description',
       content: 'Contacter Faudel Hadroug web développeur full stack spécialisée dans l\'ecosystem Vue',
@@ -14,7 +14,7 @@ useHead({
 </script>
 
 <template>
-  <main class="mt-[1rem] md:mt-[4rem] container-padding bg-dark text-white lg:h-screen overflow-auto">
+  <main class="mt-[1rem] md:mt-[4rem] container-padding bg-white text-dark lg:h-screen overflow-auto">
     <div class="pb-[2rem] ">
       <h1 class="font-bold text-2xl pb-[1rem] xl:pb-[2rem] text-center md:text-left">
         Me contacter

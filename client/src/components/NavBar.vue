@@ -17,8 +17,8 @@ const openMenuMobile = ref(false)
         <li class="w-[64px] h-[64px]">
           <a href="/">
             <img
-              width="64px"
-              height="72px"
+              width="743px"
+              height="834px"
               src="../assets/logos/logo-white-contrast.webp"
               alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
@@ -60,8 +60,8 @@ const openMenuMobile = ref(false)
         <li class="w-[64px] h-[64px]">
           <a href="/">
             <img
-              width="64px"
-              height="72px"
+              width="743px"
+              height="834px"
               src="../assets/logos/logo-white-contrast.webp"
               alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"
@@ -75,8 +75,8 @@ const openMenuMobile = ref(false)
         <li class="w-[64px] h-[64px]">
           <a href="/">
             <img
-              width="64px"
-              height="72px"
+              width="743px"
+              height="834px"
               src="../assets/logos/logo-white-contrast.webp"
               alt="Logo Faudel portfolio"
               @click="openMenuMobile = !openMenuMobile"

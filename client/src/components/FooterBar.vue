@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <div class="flex justify-center items-center flex-col space-x-[1rem] md:space-x-0">
     <p>Je suis également présent sur:</p>
@@ -35,10 +39,6 @@
     </ul>
   </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
 
 <style scoped>
 

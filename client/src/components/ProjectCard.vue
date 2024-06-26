@@ -9,8 +9,10 @@
         <p class="font-bold text-xl pb-[1rem]">
           <slot name="heading" />
         </p>
-        <p class="pb-[1rem]"><slot name="description" /></p>
-        <slot name="image"></slot>
+        <p class="pb-[1rem]">
+          <slot name="description" />
+        </p>
+        <slot name="image" />
       </div>
     </div>
     <ul class="flex flex-wrap justify-center items-center">

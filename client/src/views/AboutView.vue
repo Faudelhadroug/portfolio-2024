@@ -4,7 +4,7 @@ import { useHead } from '@unhead/vue'
 
 useHead({
   title: 'Mon profil - Faudel Portfolio',
-   meta: [
+  meta: [
     {
       name: 'description',
       content: 'Retrouvez le profil développeur de Faudel Hadroug; histoire, compétences, personnalité, lectures...',
@@ -43,7 +43,7 @@ const actualAge = computed(() => {
       </div>
     </aside>
     <section class="col-span-6 xl:col-span-9  container-padding">
-      <div class="py-[1rem]" id="histoire">
+      <div id="histoire" class="py-[1rem]">
         <h1 class="pb-[1.5rem]">
           En savoir plus sur moi
         </h1>
@@ -51,7 +51,7 @@ const actualAge = computed(() => {
           <p>Mon nom est Faudel Hadroug. J'ai actuellement {{ actualAge }} ans. J'apprécie l'informatique et les jeux-vidéos, depuis mon plus jeune âge.</p>
           <p>
             Ma première expérience dans le développement web, date de 2017 avec Wordpress ainsi que l'apprentissage des bases du HTML/CSS. En 2019 je rejoins le Samsung Campus formation Epitech de 2 ans à Paris, où je finis diplômé en 2021, avec une première expérience professionnel remote en alternance pendant 1 an.
-            <img class="py-[1rem] w-[1024px]" src="https://www.usine-digitale.fr/mediatheque/7/8/3/000359387_1200x800_c.jpg" width="512px" height="512px" alt="Photo Samsung Campus">
+            <img class="py-[1rem] w-[1024px]" width="1200" height="800" src="https://www.usine-digitale.fr/mediatheque/7/8/3/000359387_1200x800_c.jpg" alt="Photo Samsung Campus">
           </p>
           <p>Actuellement je suis un développeur full-stack spécialisé dans les framework Vue/Nuxt. Pour le back-end je maîtrise Node.js et PHP mais je me réoriente vers les languages Go et C++.</p>
         </div>

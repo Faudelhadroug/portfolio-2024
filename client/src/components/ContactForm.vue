@@ -48,7 +48,7 @@ async function handleFormSubmission() {
 </script>
 
 <template>
-  <h2 class="pb-[1rem]">
+  <h2 class="pb-[2rem]">
     Formulaire de contact
   </h2>
   <FormKit
@@ -73,7 +73,7 @@ async function handleFormSubmission() {
         label="Nom complet*"
         placeholder="John Doe"
         name="fullname"
-        label-class="font-bold text-white"
+        label-class="font-bold text-dark"
         input-class="w-full outline outline-1 p-[0.5rem] text-dark placeholder-dark-75 bg-white"
         outer-class="text-red-500"
       />
@@ -88,7 +88,7 @@ async function handleFormSubmission() {
         label="Email*"
         placeholder="JohnDoe@gmail.com"
         name="email"
-        label-class="font-bold text-white"
+        label-class="font-bold text-dark"
         input-class="w-full outline outline-1 p-[0.5rem] text-dark placeholder-dark-75 bg-white"
         outer-class="text-red-500"
       />
@@ -106,7 +106,7 @@ async function handleFormSubmission() {
       :label="textAreaMessageLabel"
       placeholder="La raison pour laquelle vous me contacter"
       name="message"
-      label-class="font-bold text-white"
+      label-class="font-bold text-dark"
       input-class="w-full outline outline-1 p-[0.5rem] pb-[4rem] xl:pb-[6rem] xl:pb-[8rem] 2xl:pb-[10rem] text-dark placeholder-dark-75 bg-white"
       outer-class="text-red-500 pb-[1rem]"
     />

@@ -4,7 +4,7 @@
     height: 100%;
     overflow: hidden;
   }
-  
+
   .circle-container {
     position: fixed;
     top: 0;
@@ -17,8 +17,14 @@
     height: 100%;
     border-radius: 50%;
     mix-blend-mode: screen;
-    background-image: radial-gradient(#0D6151, #0D6151 10%, hsla(180deg, 100%, 80%, 0) 56%);
-    animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+    background-image: radial-gradient(
+      #0d6151,
+      #0d6151 10%,
+      hsla(180deg, 100%, 80%, 0) 56%
+    );
+    animation:
+      fadein-frames 200ms infinite,
+      scale-frames 2s infinite;
   }
   @keyframes fade-frames {
     0% {

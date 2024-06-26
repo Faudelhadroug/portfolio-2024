@@ -16,6 +16,10 @@
   min-width: 0;
 }
 
+html {
+  background-color: '#F2F3F3';
+}
+
 #app {
   /* Ensure that the body fills the entire viewport */
   min-height: 100dvh;

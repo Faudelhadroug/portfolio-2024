@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import ProjectCard from '../components/ProjectCard.vue'
 import { useHead } from '@unhead/vue'
+import ProjectCard from '../components/ProjectCard.vue'
 
 useHead({
   title: 'Mes projets - Faudel Portfolio',
-   meta: [
+  meta: [
     {
       name: 'description',
       content: 'La liste complète de mes projets réalisée',
@@ -30,13 +30,19 @@ useHead({
             </template>
             <template #image>
               <a href="https://rickandmorty-2il.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
-                <img class="rounded-lg w-full h-full object-contain" src="../assets/projects/rickAndMorty.webp" alt="image de prévisualisation du project Rick et Morty" />
+                <img class="rounded-lg w-full h-full object-contain" width="1213px" height="709px" src="../assets/projects/rickAndMorty.webp" alt="image de prévisualisation du project Rick et Morty">
               </a>
             </template>
             <template #tags>
-              <li class="tags-language">Vue.js</li>
-              <li class="tags">ECharts</li>
-              <li class="tags">TailwindCSS</li>
+              <li class="tags-language">
+                Vue.js
+              </li>
+              <li class="tags">
+                ECharts
+              </li>
+              <li class="tags">
+                TailwindCSS
+              </li>
             </template>
             <template #links>
               <li class="md:hover:scale-125 md:hover:duration-200">
@@ -76,14 +82,22 @@ useHead({
             </template>
             <template #image>
               <a href="https://interactive-grid.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
-                <img class="rounded-lg w-full h-full object-conver" src="../assets/projects/pathfinder-visualizer.webp" alt="image de prévisualisation du project Rick et Morty" />
+                <img class="rounded-lg w-full h-full object-conver" width="1213px" height="640px" src="../assets/projects/pathfinder-visualizer.webp" alt="image de prévisualisation du project Rick et Morty">
               </a>
             </template>
             <template #tags>
-              <li class="tags-language">Vue.js</li>
-              <li class="tags">TailwindCSS</li>
-              <li class="tags">Algorithmie</li>
-              <li class="tags">Data Structure</li>
+              <li class="tags-language">
+                Vue.js
+              </li>
+              <li class="tags">
+                TailwindCSS
+              </li>
+              <li class="tags">
+                Algorithmie
+              </li>
+              <li class="tags">
+                Data Structure
+              </li>
             </template>
             <template #links>
               <li class="md:hover:scale-125 md:hover:duration-200">
