@@ -78,7 +78,7 @@ useHead({
               Pathfinder visualizer
             </template>
             <template #description>
-              Grille intéractive pour trouver le chemin plus court. Avec les fonctionnalités suivante: Choix de différents algorithmes, rajouter/supprimé des murs, déplacer le début et la fin.
+              Grille intéractive pour trouver le chemin plus court. Avec les fonctionnalités suivante: Choix de différents algorithmes, rajouter/supprimer des murs, déplacer le début et la fin.
             </template>
             <template #image>
               <a href="https://interactive-grid.pages.dev/" target="_blank" class="flex space-x-[0.5rem]">
