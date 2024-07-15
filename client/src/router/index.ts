@@ -25,6 +25,11 @@ const router = createRouter({
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
     },
+    {
+      path: '/confirmation',
+      name: 'confirmation',
+      component: () => import('../views/ConfirmationView.vue'),
+    },
   ],
 })
 

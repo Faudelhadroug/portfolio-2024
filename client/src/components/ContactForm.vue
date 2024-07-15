@@ -36,7 +36,7 @@ async function handleFormSubmission() {
     const emailSentResponse = await sendEmail()
     if (emailSentResponse !== true)
       throw new Error(`Error sending email: ${emailSentResponse}`)
-    router.replace({ path: '/' })
+    router.replace({ path: '/confirmation' })
   }
   catch (error: unknown) {
     if (error instanceof Error) {
